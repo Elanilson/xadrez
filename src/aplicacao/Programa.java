@@ -5,6 +5,8 @@
  */
 package aplicacao;
 
+import bordgame.Position;
+
 /**
  *
  * @author elanilsonm
@@ -15,7 +17,9 @@ public class Programa {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("olá, mundo");
+        
+        Position pos = new Position(3, 5);
+        System.out.println(pos);
     }
     
 }
